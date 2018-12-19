@@ -1,0 +1,33 @@
+{
+  "name": "coc-neoinclude",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "keywords": [
+    "coc.nvim",
+    "json"
+  ],
+  "engines": {
+    "coc": ">= 0.0.24"
+  },
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "coc.source.neoinclude.enable": {
+          "type": "boolean",
+          "default": true
+        },
+        "coc.source.neoinclude.priority": {
+          "type": "integer",
+          "default": 9
+        },
+        "coc.source.neoinclude.shortcut": {
+          "type": "string",
+          "default": "FI"
+        }
+      }
+    }
+  },
+  "author": "jsfaint@gmail.com",
+  "license": "MIT"
+}
