@@ -1,5 +1,8 @@
 function! coc#source#neoinclude#init() abort
-  return {}
+  return {
+        \ 'priority': 9,
+        \ 'shortcut': 'FI',
+        \}
 endfunction
 
 function! coc#source#neoinclude#should_complete(opt) abort
